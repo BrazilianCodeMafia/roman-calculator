@@ -1,6 +1,11 @@
-@import "~@blueprintjs/core/lib/css/blueprint.css";
-
 html, body, :global(#root) {
   height: 100%;
+  background-color: #e9f0ed;
 }
 
+@font-face {
+  font-family: Norse;
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/norse.otf") format('opentype');
+}
